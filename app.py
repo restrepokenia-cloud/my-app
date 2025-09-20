@@ -77,4 +77,4 @@ data
 import pickle
 filename = 'modelo-reg.pkl'
 variables=X.columns._values
-pickle.dump([model_Tree, model_rf, model_Knn, model_NN, min_max_scaler, variables], open(filename, 'wb'))
+pickle.dump([model_Tree, model_Knn, model_NN, min_max_scaler, variables], open(filename, 'wb'))
